@@ -40,9 +40,9 @@ header {
     overflow: hidden;
 }
 
-header a {
+header .li {
     background-color: #5dc560;
-    color:#fff;
+    color:#ffffff;
     padding: 20px 28px;
     text-align: left;
     margin: 0 auto;
@@ -55,6 +55,11 @@ header a {
     letter-spacing: 2px;
     transition: 0.3s;
     display: inline-block;
+    cursor: pointer;
+}
+
+.li:hover .li.router-link-exact-active {
+    background-color: #555555;
 }
 .single-box {
     margin-top: 30px;
@@ -98,7 +103,7 @@ header a {
     float: left;
     box-sizing: border-box;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .single-box .box-left h2{
